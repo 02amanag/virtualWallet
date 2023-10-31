@@ -1,0 +1,94 @@
+{"wallet": {
+    "id": "653aa4653aa40b00075ca1cbe3e666bd",
+    "users": [
+      {
+        "user": "6522803a6329b8000709f9b949739d2b",
+        "permissions": [
+          "admin",
+          "view",
+          "spend"
+        ]
+      }
+    ],
+    "coin": "tbtc",
+    "label": "testWallet",
+    "m": 2,
+    "n": 3,
+    "keys": [
+      "653aa45e6950930007c7e3c412a58614",
+      "653aa45e7451be00076e22f14ba1803e",
+      "653aa45fead22d0007d28a123934f715"
+    ],
+    "keySignatures": {
+      "backupPub": "20a201bbdcada2153635261cc77dcdcd9f42cbfbc94343f17e0edff762f435d4606a7378ea9fd36ab514a92874d0427e14cd5c919c5a32f68a80d1fb35073b4762",
+      "bitgoPub": "20288145fd442cbdfd2e9eb3f6a874cdd62fb7855865257567b15df8588b39f44c14b073f142f05e804d66ac812e84ef52221fdbab091cc4ade3dc02e27dfe088b"
+    },
+    "enterprise": "6522803c6329b8000709fa4c21072371",
+    "tags": [
+      "653aa4653aa40b00075ca1cbe3e666bd",
+      "6522803c6329b8000709fa4c21072371"
+    ],
+    "disableTransactionNotifications": false,
+    "freeze": {},
+    "deleted": false,
+    "approvalsRequired": 1,
+    "isCold": false,
+    "coinSpecific": {},
+    "admin": {},
+    "clientFlags": [],
+    "walletFlags": [],
+    "allowBackupKeySigning": false,
+    "recoverable": false,
+    "startDate": "2023-10-26T17:39:49.000Z",
+    "type": "hot",
+    "buildDefaults": {},
+    "customChangeKeySignatures": {},
+    "hasLargeNumberOfAddresses": false,
+    "multisigType": "onchain",
+    "config": {},
+    "balance": 0,
+    "balanceString": "0",
+    "confirmedBalance": 0,
+    "confirmedBalanceString": "0",
+    "spendableBalance": 0,
+    "spendableBalanceString": "0",
+    "unspentCount": 0,
+    "receiveAddress": {
+      "id": "653aa4653aa40b00075ca1df486d66d5",
+      "address": "2N4vxcuD6NDzh7jS4rCghgZ9F1txYb6ytyx",
+      "chain": 10,
+      "index": 1,
+      "coin": "tbtc",
+      "wallet": "653aa4653aa40b00075ca1cbe3e666bd",
+      "coinSpecific": {
+        "redeemScript": "0020b8de747835057f41a73589b5310fd0135a54633c658cbe9033d9c47fe8470326",
+        "witnessScript": "522102a32a1a69c6105272b8004f8b64b47b6330b975f3e823a05e33aab11e92029418210239a922643867f2208c26dc1eb19d577e205a5dc16997a11270eb2bcd4c27c90a210212a76a307b14488191664a0407b6a1d3fd1d974279e5888a06dfd39485240ffa53ae"
+      }
+    },
+    "pendingApprovals": []
+  },
+  "userKeychain": {
+    "id": "653aa45e6950930007c7e3c412a58614",
+    "pub": "xpub661MyMwAqRbcF19nj8MnTEoJc3nqHFhYmfTEnXLgJsVQq2nFK2dJBtEittFady3AhiznVRdZbNq5ZnHrvMnZZVCt1JoXbHZPGipCuAPX4s9",
+    "ethAddress": "0x8c8146b1984f3e5d274afbe189b5941282886f74",
+    "source": "user",
+    "type": "independent",
+    "encryptedPrv": "{\"iv\":\"NdXN5hV7sN9obwaQEIZK8w==\",\"v\":1,\"iter\":10000,\"ks\":256,\"ts\":64,\"mode\":\"ccm\",\"adata\":\"\",\"cipher\":\"aes\",\"salt\":\"Uu2kTWnQkt8=\",\"ct\":\"unrqETY6efZ2bdqFsciF+NYtE9O1MEZw1It+L26TmlGfOcQvMNqsfLCohyLJaq9O39njGn2AGAVQFUcx5oLDg1abNpuEnqgQwi7Z0KL+h4k1L16sdDIXpqxZXZ69zyGwi3srgvFm9KMo9eDE4TxYySEHCPQaLeo=\"}",
+    "prv": "xprv9s21ZrQH143K2X5Kd6pn66ra41xLsnyhQSXdz8w4kXxRxET6mVK3e5vF3ba92JUAXYKxckuX4C2PV46jr2jXgbXLH3EA9o14S2U1tFjnND6"
+  },
+  "backupKeychain": {
+    "id": "653aa45e7451be00076e22f14ba1803e",
+    "pub": "xpub661MyMwAqRbcFqSj9XtGWY5AZ613T2j6c5vzgr73WnRneU7k3K9iszjNj8mGjz6e6DP7hwbBcUS1SHfCQJ9W58GroA4v4e3Yo3djcdMPZAa",
+    "ethAddress": "0xf4cc010ece39a79076f74333d1f16f29dd3cc08a",
+    "source": "backup",
+    "type": "independent",
+    "prv": "xprv9s21ZrQH143K3MNG3WMG9Q8S14AZ3a1FEs1PtThRxStomfnbVmqULCQtssUJgijnKDY7auyBPqMPoWYfadxw3W4dE7Lw7Wsf2trquMHQ7oG"
+  },
+  "bitgoKeychain": {
+    "id": "653aa45fead22d0007d28a123934f715",
+    "pub": "xpub661MyMwAqRbcEyAi8JxNMW8PXmD9tGibMNnUQRCSaA1F7qmwr13UkzYbhCbRSgh4qoHQj137UZfB68zWA1cnGhKgVWS3fEqK6YfAjnjcmhQ",
+    "ethAddress": "0x6653248d5db5c6c742e70fb28b79ca0dee38f1ec",
+    "source": "bitgo",
+    "type": "independent",
+    "isBitGo": true
+  }}

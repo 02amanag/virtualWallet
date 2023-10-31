@@ -1,0 +1,118 @@
+{
+    "wallets": [
+      {
+        "id": "6523deaab15861000771eeeb721ff08f",
+        "users": [
+          {
+            "user": "6522803a6329b8000709f9b949739d2b",
+            "permissions": [
+              "admin",
+              "view",
+              "spend"
+            ]
+          }
+        ],
+        "coin": "tbtc",
+        "label": "Secondary Wallet",
+        "m": 2,
+        "n": 3,
+        "keys": [
+          "6523de962b0f9700074c0b365c9bbeee",
+          "6523de98f1bb8200072e2fbb874d2bd7",
+          "6523de991d5ef600070ddd5d4cf2c66e"
+        ],
+        "keySignatures": {},
+        "enterprise": "6522803c6329b8000709fa4c21072371",
+        "tags": [
+          "6523deaab15861000771eeeb721ff08f",
+          "6522803c6329b8000709fa4c21072371"
+        ],
+        "disableTransactionNotifications": false,
+        "freeze": {},
+        "deleted": false,
+        "approvalsRequired": 1,
+        "isCold": false,
+        "coinSpecific": {},
+        "admin": {},
+        "clientFlags": [],
+        "walletFlags": [],
+        "allowBackupKeySigning": false,
+        "startDate": "2023-10-09T11:06:18.000Z",
+        "type": "hot",
+        "buildDefaults": {},
+        "customChangeKeySignatures": {},
+        "hasLargeNumberOfAddresses": false,
+        "multisigType": "onchain",
+        "config": {},
+        "receiveAddress": {
+          "id": "6523e20587cb0500070e1a3049ac33f0",
+          "address": "2NGALreM849YAWvcBQKhPeZshxWuPNHRGBD",
+          "chain": 10,
+          "index": 2,
+          "coin": "tbtc",
+          "wallet": "6523deaab15861000771eeeb721ff08f",
+          "coinSpecific": {
+            "redeemScript": "00201ca12877b40dde5f01977a9916ae6562e7ca1fd8932133e52c9bf95c0cbdcffd",
+            "witnessScript": "5221023e728584a71aa1ed7b5bd874a5764204a7993211d2da698a9777850afc9d710e2102a752da4c43e7f7b18b74fc68386aaeb6072168e5c74a275e5ada723ca40f6306210246096f5ea9895b5e75510c1c1834905605392b31317c58f3a34b7c05ee023dd153ae"
+          }
+        }
+      },
+      {
+        "id": "6522856898fae0000704e608462b563c",
+        "users": [
+          {
+            "user": "6522803a6329b8000709f9b949739d2b",
+            "permissions": [
+              "admin",
+              "view",
+              "spend"
+            ]
+          }
+        ],
+        "coin": "tbtc",
+        "label": "BTC",
+        "m": 2,
+        "n": 3,
+        "keys": [
+          "652284a807291a00074561c98b3b7d88",
+          "652284aae176e600075bb271f702bb28",
+          "652284acee2583000727e153189e0860"
+        ],
+        "keySignatures": {},
+        "enterprise": "6522803c6329b8000709fa4c21072371",
+        "tags": [
+          "6522856898fae0000704e608462b563c",
+          "6522803c6329b8000709fa4c21072371"
+        ],
+        "disableTransactionNotifications": false,
+        "freeze": {},
+        "deleted": false,
+        "approvalsRequired": 1,
+        "isCold": false,
+        "coinSpecific": {},
+        "admin": {},
+        "clientFlags": [],
+        "walletFlags": [],
+        "allowBackupKeySigning": false,
+        "startDate": "2023-10-08T10:33:12.000Z",
+        "type": "hot",
+        "buildDefaults": {},
+        "customChangeKeySignatures": {},
+        "hasLargeNumberOfAddresses": false,
+        "multisigType": "onchain",
+        "config": {},
+        "receiveAddress": {
+          "id": "65239642d351920007f75da51529e71d",
+          "address": "2NGAToBKSiSje3YWQQyJzeXY2RrgYHmGeBt",
+          "chain": 10,
+          "index": 4,
+          "coin": "tbtc",
+          "wallet": "6522856898fae0000704e608462b563c",
+          "coinSpecific": {
+            "redeemScript": "00204cc70f7704811d9efabd92710f7c25881f8ed0ec8cf478a24355c81329535f57",
+            "witnessScript": "522103a749dfbe46454742ab8b808967cb24d51e9a3666d3d71af7e3297299114d440b210299e424ddc5c45f7924b959d518df2604171b55a7ff99f06d6c5ddb49e6e460be21023337ad9b4ebd2a00397a81882f7790624147a11fe9785077203aba27321b15c353ae"
+          }
+        }
+      }
+    ]
+  }

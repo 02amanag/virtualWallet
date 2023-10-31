@@ -1,0 +1,27 @@
+{
+  "name": "virtualwattels",
+  "version": "1.0.0",
+  "description": "v2x06a6ca014fbf82da3725c3457e0a17060eed2ea7c10165dbf5ab2c3abd9a84e7",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@bitgo-beta/sdk-lib-mpc": "^8.2.0",
+    "@bitgo/sdk-api": "1.11.2",
+    "@bitgo/sdk-coin-eth": "4.5.4",
+    "@bitgo/sdk-core": "8.10.0",
+    "@bitgo/sdk-lib-mpc": "8.5.0",
+    "bitgo": "^19.19.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "helmet": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.1"
+  }
+}
